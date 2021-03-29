@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: #bc69aa;
+}
+#canvas {
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(50, 1fr);
+    background-color: #d0a3bf
+}
+
+.snake{
+    background-color: #af42ae
+}
+
+.apple{
+    background-color: red;
+    border-radius: 100%;
+}
+
+#title{
+    background-color: #c585b3;
+    height: 64px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size:30px;
+    padding-top: 15px;
+}
+#players{
+    background-color: #c585b3;
+    height: 64px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size:30px;
+}
+
+.start-button {
+    text-align: center;
+    background-color: #c585b3;
+    box-shadow: 1px 1px 2px 2px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 20px;
+}
